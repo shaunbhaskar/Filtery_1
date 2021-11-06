@@ -1,0 +1,35 @@
+body
+{
+  color: white;
+  background-image: url("Bck.jpg");
+  background-size: cover;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+
+#title{
+font-family: 'Orbitron', sans-serif;
+font-family: 'Share Tech', sans-serif;
+font-size: 30px;
+color: black;
+}
+
+.btn-primary:hover{
+background-color: chartreuse;
+}
+
+canvas 
+{ animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite; }
+@keyframes example 
+{ from {box-shadow: 1px 1px 38px rgb(4, 248, 16);}
+to {box-shadow: 1px 1px 38px rgb(47, 1, 252);} }
